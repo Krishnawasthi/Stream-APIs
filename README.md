@@ -1,5 +1,6 @@
-# Stream-APIs
+
 # Java Streams API
+<img width="1026" height="351" alt="image" src="https://github.com/user-attachments/assets/8ea79bad-890e-45ca-87a4-65cc8081a17f" />
 
 The **Java Streams API** was introduced in **Java 8** to process collections of objects in a clean, declarative, and functional style.
 
