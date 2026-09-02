@@ -31,7 +31,7 @@ numbers.stream()
 40
 50
 ```
-<img width="841" height="305" alt="image" src="https://github.com/user-attachments/assets/566233fb-5c03-457d-a022-0a35b81666d6" />
+<img width="1041" height="315" alt="image" src="https://github.com/user-attachments/assets/566233fb-5c03-457d-a022-0a35b81666d6" />
 
 
 Here:
