@@ -1,5 +1,6 @@
-# Stream-APIs
+
 # Java Streams API
+<img width="1026" height="351" alt="image" src="https://github.com/user-attachments/assets/8ea79bad-890e-45ca-87a4-65cc8081a17f" />
 
 The **Java Streams API** was introduced in **Java 8** to process collections of objects in a clean, declarative, and functional style.
 
@@ -31,7 +32,8 @@ numbers.stream()
 40
 50
 ```
-<img width="1041" height="315" alt="image" src="https://github.com/user-attachments/assets/566233fb-5c03-457d-a022-0a35b81666d6" />
+<img width="1192" height="325" alt="image" src="https://github.com/user-attachments/assets/c587f484-468c-4221-8359-b4dd369f40bf" />
+
 
 
 Here:
