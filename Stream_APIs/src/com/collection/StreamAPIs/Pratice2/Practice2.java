@@ -2,6 +2,7 @@ package com.collection.StreamAPIs.Pratice2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import com.collection.StreamAPIs.Pratice.ProductData;
@@ -52,9 +53,10 @@ public class Practice2 {
 		
         //2. write the process logic on stream
 		
-		List<ProductData> filterstream = (List<ProductData>) brand.filter(f -> f.getName().startsWith("S")).toList();
+		List<String> filterstream =  brand.filter(f -> f.getName().startsWith("S")).map(word -> word.getName().toUpperCase() + ": " + word.getPrice())
+				.collect(Collectors.toList());
 		
-		filterstream.forEach(p -> System.out.println(p.getName() + ", Price: "+ p.getPrice()));
+		filterstream.forEach(word -> System.out.println(word));
 		
 		}
 	}
