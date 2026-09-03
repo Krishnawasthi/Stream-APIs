@@ -89,9 +89,12 @@ numbers.stream();
 
 ### 2. Intermediate Operations
 
+
 These transform or filter the stream.
 ## it takes one Stream as an input and gives another stream as an output
 ## by the intermediate you cam create the chain of streams.
+
+<img width="680" height="306" alt="image" src="https://github.com/user-attachments/assets/c1aaf203-9eb3-4cec-9151-e46aa0874d5e" />
 
 Examples:
 
