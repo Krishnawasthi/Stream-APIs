@@ -12,7 +12,7 @@ A Stream is **not a data structure**. It is a sequence of elements that allows u
 
 ## What is a Stream?
 
-<img width="1327" height="320" alt="image" src="https://github.com/user-attachments/assets/feabe07f-2829-46f2-bee9-4551daa4ac03" />
+
 
 A Stream represents a sequence of elements that can be processed through a pipeline of operations.
 
@@ -88,7 +88,13 @@ numbers.stream();
 
 ### 2. Intermediate Operations
 
+
 These transform or filter the stream.
+## it takes one Stream as an input and gives another stream as an output
+## by the intermediate you cam create the chain of streams.
+
+<img width="680" height="306" alt="image" src="https://github.com/user-attachments/assets/c1aaf203-9eb3-4cec-9151-e46aa0874d5e" />
+<img width="637" height="32" alt="image" src="https://github.com/user-attachments/assets/e3ae3de4-3a76-4854-99cd-19dc041c8e0b" />
 
 Examples:
 
@@ -117,6 +123,12 @@ max()
 ```
 
 ---
+<img width="835" height="435" alt="image" src="https://github.com/user-attachments/assets/03c6fffe-1973-4376-97d0-bd83f59b55b0" />
+
+<img width="637" height="32" alt="image" src="https://github.com/user-attachments/assets/d719bbcf-fc9d-4803-a8f4-d530f8f3ffea" />
+
+
+## terminal will called only once.
 
 ## How to Create a Stream
 
@@ -384,3 +396,9 @@ toList()
     ↓
 Result
 ```
+
+## Here is  flow of program how stream works: 
+<img width="801" height="450" alt="image" src="https://github.com/user-attachments/assets/51c5f2d3-b410-467b-9372-8af73a42d19f" />
+## the actual Example:
+<img width="1616" height="355" alt="image" src="https://github.com/user-attachments/assets/0a9e0494-247e-411c-b644-b88f26f23499" />
+
