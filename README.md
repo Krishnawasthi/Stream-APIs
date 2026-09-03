@@ -90,7 +90,7 @@ numbers.stream();
 ### 2. Intermediate Operations
 
 These transform or filter the stream.
-
+## by the intermideate you cam create the chain.
 Examples:
 
 ```java
