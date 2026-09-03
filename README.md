@@ -90,7 +90,9 @@ numbers.stream();
 ### 2. Intermediate Operations
 
 These transform or filter the stream.
-## by the intermideate you cam create the chain.
+
+## by the intermediate you cam create the chain of streams.
+
 Examples:
 
 ```java
@@ -119,7 +121,9 @@ max()
 
 ---
 <img width="835" height="435" alt="image" src="https://github.com/user-attachments/assets/03c6fffe-1973-4376-97d0-bd83f59b55b0" />
+
 ## terminal will called only once.
+
 ## How to Create a Stream
 
 ### From Collection
