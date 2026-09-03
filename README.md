@@ -94,7 +94,7 @@ These transform or filter the stream.
 ## by the intermediate you cam create the chain of streams.
 
 <img width="680" height="306" alt="image" src="https://github.com/user-attachments/assets/c1aaf203-9eb3-4cec-9151-e46aa0874d5e" />
-![Uploading image.png…]()
+<img width="637" height="32" alt="image" src="https://github.com/user-attachments/assets/e3ae3de4-3a76-4854-99cd-19dc041c8e0b" />
 
 Examples:
 
@@ -124,6 +124,7 @@ max()
 
 ---
 <img width="835" height="435" alt="image" src="https://github.com/user-attachments/assets/03c6fffe-1973-4376-97d0-bd83f59b55b0" />
+![Uploading image.png…]()
 
 ## terminal will called only once.
 
