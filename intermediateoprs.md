@@ -111,12 +111,15 @@ The original elements are transformed.
 ```
 
 ---
+## MAP() only works on 1D Array.So if we want to change this into 2D Array you need to use flatMap().
 
 # 3. `flatMap()`
 
 `flatMap()` is used when each element produces **multiple elements**, especially when working with nested collections.
 
 It flattens multiple Streams into a single Stream.
+<img width="858" height="410" alt="image" src="https://github.com/user-attachments/assets/5be6d572-7273-42c0-8b1e-370b92ae5077" />
+## it takes 2D Arrays as an input and convert this to 1D Array.
 
 ### Example
 
