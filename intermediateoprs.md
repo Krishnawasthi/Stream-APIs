@@ -71,6 +71,7 @@ numbers.stream()
 
 # 2. `map()`
 
+<img width="877" height="207" alt="image" src="https://github.com/user-attachments/assets/588ec716-85d8-4024-a1f4-981779f64ba6" />
 `map()` is used to **transform each element** of a Stream into another value.
 
 It takes a `Function<T, R>`.
