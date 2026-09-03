@@ -384,3 +384,9 @@ toList()
     ↓
 Result
 ```
+
+## Here is  flow of program how stream works: 
+<img width="801" height="450" alt="image" src="https://github.com/user-attachments/assets/51c5f2d3-b410-467b-9372-8af73a42d19f" />
+## the actual Example:
+<img width="1616" height="355" alt="image" src="https://github.com/user-attachments/assets/0a9e0494-247e-411c-b644-b88f26f23499" />
+
