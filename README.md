@@ -7,7 +7,7 @@ The **Java Streams API** was introduced in **Java 8** to process collections of 
 
 A Stream is **not a data structure**. It is a sequence of elements that allows us to perform operations such as filtering, mapping, sorting, and collecting.
 
-<img width="835" height="435" alt="image" src="https://github.com/user-attachments/assets/6f414359-f7c8-4c21-bca9-13e1201ad97f" />
+<img width="835" height="400" alt="image" src="https://github.com/user-attachments/assets/6f414359-f7c8-4c21-bca9-13e1201ad97f" />
 
 ---
 
