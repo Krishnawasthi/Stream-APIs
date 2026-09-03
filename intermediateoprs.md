@@ -32,7 +32,7 @@ numbers.stream()
 ---
 
 # 1. `filter()`
-
+## wherever output is reducing filter will come into to action.
 `filter()` is used to select elements based on a condition.
 
 It takes a `Predicate<T>` and returns a new Stream containing only the elements that satisfy the condition.
