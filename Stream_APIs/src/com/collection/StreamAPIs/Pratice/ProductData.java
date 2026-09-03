@@ -2,8 +2,8 @@ package com.collection.StreamAPIs.Pratice;
 
 public class ProductData{
 
-	String prodName;
-	int prodPrice;
+	private String prodName;
+	private int prodPrice;
 
 	public ProductData(String prodName, int prodPrice)
 	{

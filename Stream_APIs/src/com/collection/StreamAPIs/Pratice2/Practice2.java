@@ -1,15 +1,15 @@
-package com.collection.StreamAPIs.Pratice;
+package com.collection.StreamAPIs.Pratice2;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ProductDriver
-{
-	public static void main(String[] args)
-	{
-      
+import com.collection.StreamAPIs.Pratice.ProductData;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+		
 		ProductData data1 = new ProductData("Shirt", 9000);
 		ProductData data2 = new ProductData("joggers", 5400);
 		ProductData data3 = new ProductData("Bottoms", 11000);
@@ -44,26 +44,19 @@ public class ProductDriver
 		list.add(data14);
 		list.add(data15);
 		
-		// Task 1 --> Get the product which Price are more than 8k
 		
-		//1. convert ArrayList to Stream
-		Stream<ProductData> stream = list.stream();
+		//Task --> find the product which are starts with letter "S".
 		
-		//2. Write the processing Logic 1;
-		 long count = 0;
-		Stream<ProductData> filterStream = stream.filter(p -> p.getPrice()  > 8000);
-		   
-			List<ProductData> filterList = filterStream.collect(Collectors.toList());
-		        
-		for(ProductData filterProduct : filterList ) {
-     
-			System.out.println(filterProduct);
-			 count++;
-			
-			}
-			
-		 System.out.println("Total Products: "+ count);
-	     
+		//1.convert list into Stream
+		Stream<ProductData> brand = list.stream();
+		
+        //2. write the process logic on stream
+		
+		List<ProductData> filterstream = (List<ProductData>) brand.filter(f -> f.getName().startsWith("S")).toList();
+		
+		filterstream.forEach(p -> System.out.println(p.getName() + ", Price: "+ p.getPrice()));
+		
+		}
 	}
 
-}
+
