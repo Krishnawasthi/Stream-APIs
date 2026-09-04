@@ -167,6 +167,8 @@ With `flatMap()`:
 | Maintains nested structure | Removes nested structure     |
 
 ---
+<img width="1091" height="277" alt="image" src="https://github.com/user-attachments/assets/b7e8a718-b18c-4942-bb2d-0fc2e1f6fd12" />
+
 
 # 4. `distinct()`
 
