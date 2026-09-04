@@ -11,9 +11,12 @@ public class SortingNumbers {
 		
 		List<Integer>  input = Arrays.asList(23,12,34,43,56,54,15,43,76);
 		
-		 input.stream().sorted(Comparator.reverseOrder()).forEach(number -> System.out.println(number));
+		input.stream().sorted().forEach(number -> System.out.println(number));
+		
+		
+		/* input.stream().sorted(Comparator.reverseOrder()).forEach(number -> System.out.println(number));
 		 System.out.println("----------------------------------------------------");
-		 input.stream().sorted(Comparator.naturalOrder()).forEach(number -> System.out.println(number));
+		 input.stream().sorted(Comparator.naturalOrder()).forEach(number -> System.out.println(number)); */
 		
 		
 		
