@@ -1,6 +1,7 @@
 package com.collection.StreamAPIs.sorted;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -8,11 +9,13 @@ public class SortingNumbers {
 
 	public static void main(String[] args) {
 		
-		List<Integer>  input = Arrays.asList(12,34,43,7556,354,12,4543,7655,646,674,587,646,675,3453);
+		List<Integer>  input = Arrays.asList(23,12,34,43,56,54,15,43,76);
 		
-		List<Integer>  output = input.stream().sorted().collect(Collectors.toList());
+		 input.stream().sorted(Comparator.reverseOrder()).forEach(number -> System.out.println(number));
+		 System.out.println("----------------------------------------------------");
+		 input.stream().sorted(Comparator.naturalOrder()).forEach(number -> System.out.println(number));
 		
-		System.out.println(output);
+		
 		
 	}
 
