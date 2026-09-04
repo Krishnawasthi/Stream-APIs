@@ -213,6 +213,7 @@ numbers.stream()
        .sorted()
        .forEach(System.out::println);
 ```
+<img width="1317" height="308" alt="image" src="https://github.com/user-attachments/assets/7dd0ce2c-4f19-4c90-b9f9-54fd63e97628" />
 
 ### Output
 
