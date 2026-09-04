@@ -518,3 +518,6 @@ Stream pipeline ends
 * `limit()` and `skip()` → control the number of processed elements.
 * `peek()` → useful mainly for debugging.
 * `takeWhile()` and `dropWhile()` are available from **Java 9**.
+
+
+<img width="1097" height="298" alt="image" src="https://github.com/user-attachments/assets/77141d58-7420-4597-9a5a-c7a088b15bea" />
