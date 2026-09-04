@@ -213,6 +213,7 @@ numbers.stream()
        .sorted()
        .forEach(System.out::println);
 ```
+<img width="1317" height="308" alt="image" src="https://github.com/user-attachments/assets/7dd0ce2c-4f19-4c90-b9f9-54fd63e97628" />
 
 ### Output
 
@@ -225,6 +226,7 @@ numbers.stream()
 ```
 
 ---
+<img width="1207" height="185" alt="image" src="https://github.com/user-attachments/assets/5e33219a-0d58-486a-8951-f26da5201da1" />
 
 ## Custom Sorting with `Comparator`
 
