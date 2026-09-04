@@ -225,6 +225,7 @@ numbers.stream()
 ```
 
 ---
+<img width="1207" height="185" alt="image" src="https://github.com/user-attachments/assets/5e33219a-0d58-486a-8951-f26da5201da1" />
 
 ## Custom Sorting with `Comparator`
 
