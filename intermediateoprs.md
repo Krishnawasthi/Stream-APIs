@@ -171,7 +171,7 @@ With `flatMap()`:
 
 
 # 4. `distinct()`
-<img width="997" height="228" alt="image" src="https://github.com/user-attachments/assets/f5e281a2-3a2e-4b49-be22-03d0602fe7db" />
+
 
 `distinct()` removes duplicate elements from a Stream.
 
@@ -194,7 +194,7 @@ numbers.stream()
 30
 40
 ```
-
+<img width="997" height="228" alt="image" src="https://github.com/user-attachments/assets/f5e281a2-3a2e-4b49-be22-03d0602fe7db" />
 It uses the element's equality mechanism to determine duplicates.
 
 ---
