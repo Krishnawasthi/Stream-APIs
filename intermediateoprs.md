@@ -300,6 +300,7 @@ numbers.stream()
 40
 50
 ```
+<img width="1140" height="228" alt="image" src="https://github.com/user-attachments/assets/70157d6d-9f05-4ffb-ae71-e5cf784a4a5a" />
 
 ---
 
