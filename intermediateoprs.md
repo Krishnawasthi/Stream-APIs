@@ -32,7 +32,7 @@ numbers.stream()
 ---
 
 # 1. `filter()`
-
+## wherever output is reducing filter will come into to action.
 `filter()` is used to select elements based on a condition.
 
 It takes a `Predicate<T>` and returns a new Stream containing only the elements that satisfy the condition.
@@ -71,6 +71,7 @@ numbers.stream()
 
 # 2. `map()`
 
+<img width="877" height="207" alt="image" src="https://github.com/user-attachments/assets/588ec716-85d8-4024-a1f4-981779f64ba6" />
 `map()` is used to **transform each element** of a Stream into another value.
 
 It takes a `Function<T, R>`.
@@ -110,12 +111,15 @@ The original elements are transformed.
 ```
 
 ---
+## MAP() only works on 1D Array.So if we want to change this into 2D Array you need to use flatMap().
 
 # 3. `flatMap()`
 
 `flatMap()` is used when each element produces **multiple elements**, especially when working with nested collections.
 
 It flattens multiple Streams into a single Stream.
+<img width="858" height="410" alt="image" src="https://github.com/user-attachments/assets/5be6d572-7273-42c0-8b1e-370b92ae5077" />
+## it takes 2D Arrays as an input and convert this to 1D Array.
 
 ### Example
 
@@ -163,6 +167,8 @@ With `flatMap()`:
 | Maintains nested structure | Removes nested structure     |
 
 ---
+<img width="1091" height="277" alt="image" src="https://github.com/user-attachments/assets/b7e8a718-b18c-4942-bb2d-0fc2e1f6fd12" />
+
 
 # 4. `distinct()`
 

@@ -94,7 +94,7 @@ These transform or filter the stream.
 ## by the intermediate you cam create the chain of streams.
 
 <img width="680" height="306" alt="image" src="https://github.com/user-attachments/assets/c1aaf203-9eb3-4cec-9151-e46aa0874d5e" />
-<img width="637" height="32" alt="image" src="https://github.com/user-attachments/assets/e3ae3de4-3a76-4854-99cd-19dc041c8e0b" />
+
 
 Examples:
 
@@ -260,6 +260,8 @@ numbers.stream()
 ```
 
 ---
+
+<img width="585" height="161" alt="image" src="https://github.com/user-attachments/assets/14381f66-6a61-496e-960e-4d2fa244767a" />
 
 ## Sequential Stream
 
