@@ -551,7 +551,10 @@ System.out.println(sum); // 15
 
 # Stream.mapToInt()
 
-Converts a `Stream<T>` (of boxed objects) into an `IntStream` (of primitive `int`s).
+## mapToInt() converts a regular Stream<Integer> into an IntStream — a special stream designed for primitive int values.
+## Integer::intValue is a method reference that unboxes each Integer object into a primitive int. It's shorthand for:
+
+### Converts a `Stream<T>` (of boxed objects) into an `IntStream` (of primitive `int`s).
 
 ## Syntax
 ```java
