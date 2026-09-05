@@ -61,6 +61,8 @@ Output:
 ```text
 Optional[Krishna]
 ```
+<img width="1467" height="309" alt="image" src="https://github.com/user-attachments/assets/817a5900-a0d7-45d2-91db-a68c0dbd3503" />
+
 
 ⚠️ If the value is `null`, `Optional.of()` throws `NullPointerException`.
 
