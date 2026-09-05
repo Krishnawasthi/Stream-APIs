@@ -404,3 +404,10 @@ Result
 ## the actual Example:
 <img width="1616" height="355" alt="image" src="https://github.com/user-attachments/assets/0a9e0494-247e-411c-b644-b88f26f23499" />
 
+
+## first non repeating char...
+
+<img width="1006" height="353" alt="image" src="https://github.com/user-attachments/assets/b2624b6e-6ae0-4329-8ab7-921d9ed4a46d" />
+
+
+
