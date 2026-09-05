@@ -549,3 +549,30 @@ System.out.println(sum); // 15
 - Accumulator combines two values into one, repeatedly, until a single result remains.
 <img width="912" height="243" alt="image" src="https://github.com/user-attachments/assets/5232c73e-77cc-494a-89e7-ee1a7225b526" />
 
+# Stream.mapToInt()
+
+Converts a `Stream<T>` (of boxed objects) into an `IntStream` (of primitive `int`s).
+
+## Syntax
+```java
+IntStream mapToInt(ToIntFunction<? super T> mapper)
+```
+
+## Example
+```java
+List<Integer> numbers = Arrays.asList(2, 5, 1, 8, 3, 4, 6, 7);
+
+IntStream intStream = numbers.stream()
+                              .mapToInt(Integer::intValue);
+```
+
+## What it does
+- `Integer::intValue` unboxes each `Integer` object into a primitive `int`.
+- Converts `Stream<Integer>` → `IntStream`.
+- `IntStream` has built-in numeric methods (`min()`, `max()`, `sum()`, `average()`) that don't need a `Comparator`.
+
+## Why use it
+- Avoids autoboxing/unboxing overhead.
+- Simpler syntax: `.min()` instead of `.min(Comparator.naturalOrder())`.
+- Returns primitive-friendly types like `OptionalInt` instead of `Optional<Integer>`.
+
