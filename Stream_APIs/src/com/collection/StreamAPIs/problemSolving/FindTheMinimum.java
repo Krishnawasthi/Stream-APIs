@@ -29,10 +29,9 @@ public class FindTheMinimum {
         //Approach5
 		Optional<Integer> miniNum = numbers.stream().min((a,b) -> a-b);
 		Optional<Integer> maxNum = numbers.stream().max((a,b) -> a-b);
-		Optional<Integer> maxNumber = numbers.stream().reduce((a, b) -> a+b);
+		
 		System.out.println(miniNum.get());
 		System.out.println(maxNum.get());
-		System.out.println(maxNumber.get());
 		
 		
 		//Approach6
