@@ -575,8 +575,6 @@ IntStream intStream = numbers.stream()
 - Converts `Stream<Integer>` → `IntStream`.
 - `IntStream` has built-in numeric methods (`min()`, `max()`, `sum()`, `average()`) that don't need a `Comparator`.
 
-## Why use it
-- Avoids autoboxing/unboxing overhead.
-- Simpler syntax: `.min()` instead of `.min(Comparator.naturalOrder())`.
-- Returns primitive-friendly types like `OptionalInt` instead of `Optional<Integer>`.
 
+
+<img width="916" height="317" alt="image" src="https://github.com/user-attachments/assets/119658d2-ca9c-4d8a-9cba-c8a3a979cedd" />
