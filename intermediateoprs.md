@@ -300,6 +300,7 @@ numbers.stream()
 40
 50
 ```
+<img width="1140" height="228" alt="image" src="https://github.com/user-attachments/assets/70157d6d-9f05-4ffb-ae71-e5cf784a4a5a" />
 
 ---
 
@@ -517,3 +518,6 @@ Stream pipeline ends
 * `limit()` and `skip()` → control the number of processed elements.
 * `peek()` → useful mainly for debugging.
 * `takeWhile()` and `dropWhile()` are available from **Java 9**.
+
+
+<img width="1097" height="298" alt="image" src="https://github.com/user-attachments/assets/77141d58-7420-4597-9a5a-c7a088b15bea" />
