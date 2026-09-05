@@ -567,6 +567,7 @@ List<Integer> numbers = Arrays.asList(2, 5, 1, 8, 3, 4, 6, 7);
 
 IntStream intStream = numbers.stream()
                               .mapToInt(Integer::intValue);
+ you can replace mapToInt(Integer :: intValue) -->  mapToInt(i -> i.intValue())
 ```
 
 ## What it does
