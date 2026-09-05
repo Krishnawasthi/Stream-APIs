@@ -521,3 +521,62 @@ Stream pipeline ends
 
 
 <img width="1097" height="298" alt="image" src="https://github.com/user-attachments/assets/77141d58-7420-4597-9a5a-c7a088b15bea" />
+
+
+# Stream.reduce()
+
+Combines all elements of a stream into a single result using an accumulator function.
+
+## Syntax
+```java
+T reduce(T identity, BinaryOperator<T> accumulator)
+Optional<T> reduce(BinaryOperator<T> accumulator)
+```
+
+## Example
+```java
+List<Integer> nums = List.of(1, 2, 3, 4, 5);
+
+int sum = nums.stream()
+              .reduce(0, (a, b) -> a + b);
+
+System.out.println(sum); // 15
+```
+
+## Notes
+- `identity` is the starting value (and default if stream is empty).
+- Without `identity`, it returns `Optional<T>` (handles empty stream case).
+- Accumulator combines two values into one, repeatedly, until a single result remains.
+<img width="912" height="243" alt="image" src="https://github.com/user-attachments/assets/5232c73e-77cc-494a-89e7-ee1a7225b526" />
+
+# Stream.mapToInt()
+
+## mapToInt() converts a regular Stream<Integer> into an IntStream — a special stream designed for primitive int values.
+## Integer::intValue is a method reference that unboxes each Integer object into a primitive int. It's shorthand for:
+
+### Converts a `Stream<T>` (of boxed objects) into an `IntStream` (of primitive `int`s).
+
+## Syntax
+```java
+IntStream mapToInt(ToIntFunction<? super T> mapper)
+```
+
+## Example
+```java
+List<Integer> numbers = Arrays.asList(2, 5, 1, 8, 3, 4, 6, 7);
+
+IntStream intStream = numbers.stream()
+                              .mapToInt(Integer::intValue);
+ you can replace mapToInt(Integer :: intValue) -->  mapToInt(i -> i.intValue())
+```
+
+## What it does
+- `Integer::intValue` unboxes each `Integer` object into a primitive `int`.
+- Converts `Stream<Integer>` → `IntStream`.
+- `IntStream` has built-in numeric methods (`min()`, `max()`, `sum()`, `average()`) that don't need a `Comparator`.
+
+## Why use it
+- Avoids autoboxing/unboxing overhead.
+- Simpler syntax: `.min()` instead of `.min(Comparator.naturalOrder())`.
+- Returns primitive-friendly types like `OptionalInt` instead of `Optional<Integer>`.
+
