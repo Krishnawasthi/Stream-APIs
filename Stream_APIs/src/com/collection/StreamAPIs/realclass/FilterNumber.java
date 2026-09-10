@@ -1,5 +1,6 @@
 package com.collection.StreamAPIs.realclass;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,8 +13,20 @@ public class FilterNumber {
 			    9, 94, 38, 62, 17, 55, 41, 83,
 			    29, 71, 48, 100, 36, 64, 21, 58
 			);
-		
+
 		//find the integers which are above 50
+		//regular Approach
+		List<Integer> result = new ArrayList<Integer>();
+		for(Integer n : numbers) {
+			
+			if(n > 50)
+			result.add(n);
+			
+		}
+		
+		System.out.println("by the normal approach: "+ result);
+		
+		
 		//Approach1
 		List<Integer> filterNumber1 = numbers.stream().filter(n -> n > 50).collect(Collectors.toList());
 		 System.out.println("Number List with Approach1: "+ filterNumber1);
