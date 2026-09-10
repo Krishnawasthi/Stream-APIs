@@ -15,9 +15,9 @@ class Product {
 		this.price = price;
 	}
 
-	public static List<String> prodList(List<Product> product){
+	public static void prodList(List<Product> product){
 		
-		return (List<String>) product.stream().filter(p -> p.price > 1000).map(prod -> prod.prodName + "-" + (prod.price - (prod.price/10))).collect(Collectors.toList());
+		product.stream().filter(p -> p.price > 1000).map(prod -> prod.prodName+" - Original Price: "+ prod.price + " -"+" Price After Discount: " + (prod.price - (prod.price/10))).forEach(System.out::println);
 	}
 }
 
@@ -28,8 +28,7 @@ public class FilterProduct {
 				new Product("Headphones", 1500), new Product("Keyboard", 1200), new Product("Mouse", 800),
 				new Product("Monitor", 15000), new Product("Tablet", 18000), new Product("Speaker", 350));
 
-		List<String> result = Product.prodList(products);
-		System.out.println(result);
+	  Product.prodList(products);
 	}
 
 }
