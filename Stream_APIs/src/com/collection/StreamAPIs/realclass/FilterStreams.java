@@ -19,7 +19,11 @@ public class FilterStreams {
 		
 		// 2. apply filter on stream
 		
-	Stream<String>  filterStream = inputStream.map(w -> w.trim().substring(0, 1).toUpperCase()+ w.trim().substring(1)).filter(word -> word.startsWith("A"));
+		Stream<String> filterStream = inputStream
+                .map(w -> w.trim().substring(0, 1).toUpperCase()
+                        + w.trim().substring(1))
+                .filter(word -> word.startsWith("A"));
+
 	
 	    //3. change filter stream to list(collect or print),
 	
