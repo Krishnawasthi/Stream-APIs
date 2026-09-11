@@ -15,17 +15,12 @@ class Employee{
 	}
 	
 	public static List<String> filterEmp( List<Employee> emp) {
-		
-       
+		      
 		return (List<String>) emp.stream().filter(employee -> employee.salary >= 10).map(employee -> employee.name  +  " - " + employee.salary + " LPA").collect(Collectors.toList());		
 		
 	}
 	
-	
-	
 }
-
-
 public class GetEmpSalWithName {
 	
 

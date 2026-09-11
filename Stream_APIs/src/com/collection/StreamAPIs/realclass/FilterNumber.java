@@ -36,7 +36,7 @@ public class FilterNumber {
 		 System.out.println("Number List with Approach1: "+ filterNumber2);
 		 
 		//Approach3  //without streams  (Integer :: intValue)
-		 numbers.stream().mapToInt(Integer -> Integer.intValue()).filter(n -> n > 50).forEach(System.out::println);
+		 numbers.stream().mapToInt(Integer :: intValue).filter(n -> n > 50).forEach(System.out::println);
 	}
 
 }
