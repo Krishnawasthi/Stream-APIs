@@ -11,8 +11,10 @@ public class SumOFOddNumbers {
 		
 		//find the sum of odd numbers
     
- int sumOdd =   numbers.stream().filter(n -> n%2 != 0).reduce(0, (a,b) -> a+b);
+ int sumOdd = numbers.stream().filter(n -> n%2 != 0).reduce(0, (a,b) -> a+b);
    System.out.println("sum of the Odd numbers: " + sumOdd);
+     
+  
    
    int sumEven =   numbers.stream().filter(n -> n%2 == 0).reduce(0, (a,b) -> a+b);
    System.out.println("sum of the Even numbers: " + sumEven);
