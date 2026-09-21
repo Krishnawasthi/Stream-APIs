@@ -1,5 +1,7 @@
 
 # Java Streams API
+<img width="1078" height="307" alt="image" src="https://github.com/user-attachments/assets/d7079139-b84e-4745-a2a8-899ad6283b95" />
+
 <img width="1026" height="351" alt="image" src="https://github.com/user-attachments/assets/8ea79bad-890e-45ca-87a4-65cc8081a17f" />
 
 ## Map Will take one Stream as an input and convert it according to the Operation.
