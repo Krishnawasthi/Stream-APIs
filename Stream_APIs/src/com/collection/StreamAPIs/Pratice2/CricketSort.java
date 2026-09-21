@@ -10,8 +10,8 @@ public class CricketSort {
 	public static void main(String[] args) {
 		
 		List<String> player = Arrays.asList("Ravi","Dhoni","Kohli","Rahul","Sachin","Jadeja","Rohit","Mayank","Rishabh");
-	int strLength = player.stream().filter(n -> n.startsWith("R")).mapToInt(String::length).reduce(0,(acc, n) -> acc+n);
-	System.out.println(strLength);
+	int strLength = player.stream().filter(n -> n.startsWith("R")).mapToInt(String::length).reduce(0,(a, b) -> a+b);
+	System.out.println("Total length of all R words: "+ strLength);
 	}
 
 }
